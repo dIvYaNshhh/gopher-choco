@@ -11,6 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
-    <file src="src\GopherSecurity-windows-0.0.2-19-amd64-release.msi" target="tools" />
+    <file src="tools\GopherSecurity-windows-0.0.2-19-amd64-release.msi" target="tools\" />
+    <file src="tools\chocolateyinstall.ps1" target="tools\" />
   </files>
 </package>
